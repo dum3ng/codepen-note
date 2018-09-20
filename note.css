@@ -1,10 +1,10 @@
 :root {
-  --note-primary-color: #5EB2E8;
+  --note-primary-color: #5eb2e8;
 }
 
 body {
   padding: 10px 20px;
-  background-color: #E7D6D6;
+  background-color: #e7d6d6;
   font-family: chalkboard, "yuanti sc", sans-serif;
   width: 70%;
   min-width: 600px;
@@ -26,7 +26,7 @@ body {
   font-size: 1.5em;
   font-weight: bold;
   margin: 1em 0 0.83em 0;
-  color: #53BA46;
+  color: #53ba46;
   position: relative;
 }
 
@@ -48,7 +48,7 @@ body {
   font-weight: bold;
   font-size: 1.17em;
   margin: 1em 0;
-  color: #3A9DDB;
+  color: #3a9ddb;
 }
 
 .h3::before {
@@ -60,7 +60,7 @@ body {
 .h4 {
   font-weight: bold;
   margin: 1.33em 0;
-  color: #F76704;
+  color: #f76704;
 }
 
 .h4::before {
@@ -74,7 +74,7 @@ body {
   font-weight: bold;
   font-size: 0.83em;
   margin: 1.67em 0;
-  color: #6638F0;
+  color: #6638f0;
 }
 
 .h5::before {
@@ -88,7 +88,7 @@ body {
   font-weight: bold;
   font-size: 0.67em;
   margin: 2.33em 0;
-  color: #5D606F;
+  color: #5d606f;
 }
 
 .h6::before {
@@ -99,27 +99,29 @@ body {
 }
 
 code {
-  padding: 0 0.3rem;
+  padding: 0.1em 0.3em;
   color: white;
-  background-color: #334E70;
+  background-color: #2aa410;
   border-radius: 5px;
   font: 0.9rem monospace;
 }
 
-.blockquote, .bq {
-  background-color: #EEEEEE;
+.blockquote,
+.bq {
+  background-color: #eeeeee;
   margin: 1em 40px 0 0;
   border-left: solid 3px gray;
   padding: 1em 40px;
 }
 
-.blockquote + .cite, .bq + .cite {
+.blockquote + .cite,
+.bq + .cite {
   display: block;
   margin-right: 40px;
   text-align: right;
   padding-right: 40px;
   padding-bottom: 1em;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   border-left: solid 3px gray;
 }
 
@@ -222,7 +224,7 @@ code {
   color: black;
 }
 
-.tr:nth-child(2n+1) .td {
+.tr:nth-child(2n + 1) .td {
   background-color: #eee;
   color: #333;
 }
@@ -231,7 +233,7 @@ code {
   display: table-cell;
   font-weight: bold;
   padding: 0.5em 1em;
-  background-color: #63CCC8;
+  background-color: #63ccc8;
   color: #333;
   /* margin: 2px; */
   /* border: solid 2px red; */
@@ -256,7 +258,7 @@ code {
 tag {
   /* customized tag, used to style html tag */
   font-size: 0.95em;
-  background-color: #D84C2A;
+  background-color: #d84c2a;
   color: #fff;
   border-radius: 0.2em;
   padding: 0em 0.2em;
@@ -280,7 +282,7 @@ time {
   left: 6px;
   width: 28px;
   height: 28px;
-  background: linear-gradient(rgba(98, 222, 83, 0.7), #00C037);
+  background: linear-gradient(rgba(98, 222, 83, 0.7), #00c037);
   /* border: solid 1px #fff; */
   box-shadow: 1px 2px 3px rgba(30, 30, 30, 0.2);
   border-radius: 50%;
@@ -293,7 +295,7 @@ time {
   border-color: red;
   top: 2px;
   left: 2px;
-  background: linear-gradient(#FF858A, #BD2D30);
+  background: linear-gradient(#ff858a, #bd2d30);
   width: 36px;
   height: 36px;
 }
@@ -464,27 +466,29 @@ time {
   margin: 1rem 0;
   border: dotted 1px gray;
   border-right: none;
-  border-left: solid 5px #5CC9F5;
+  border-left: solid 5px #5cc9f5;
   padding: 0.5rem;
+  background-color: floralwhite;
 }
 
 .warning {
   margin: 1rem 0;
   border: dotted 1px gray;
   border-right: none;
-  border-left: solid 5px #FCDD9B;
+  border-left: solid 5px #fcdd9b;
   padding: 1rem;
+  background-color: floralwhite;
 }
 
 .alert {
   margin: 1rem 0;
   border: dotted 1px gray;
   border-right: none;
-  border-left: solid 5px #BD2D30;
+  border-left: solid 5px #bd2d30;
   padding: 1rem;
+  background-color: floralwhite;
 }
 
 /* user added   */
 /*  for section  */
-
 
